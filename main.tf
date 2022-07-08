@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "public" {
   location = "${var.location}"
   tags = "${var.tags}"
 }
-#
+#######################
 resource "azurerm_resource_group" "private" {
   name     = "${var.prefix}-private"
   location = "${var.location}"
